@@ -1,0 +1,48 @@
+body{
+ min-height: 100vh;
+ padding: 20px;
+ font-size: 3rem;
+}
+
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+.container{
+border: 3px solid red;
+min-width: 800px;
+height: 900px;
+margin-inline: auto;
+display: flex;
+/* flex-direction: row; */
+ gap: 0.9rem;  
+justify-content:flex-start; 
+align-items:flex-start; 
+/* flex-wrap: wrap; */
+flex-flow: row nowrap;
+align-content:space-evenly;
+}
+
+.box{
+ min-height: 100px;
+ background-color: wheat;
+ color: black;
+ padding:0.5rem;
+
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ /* flex-basis: 300px;
+ flex-shrink: 1; */
+ flex: 1  1  100px;
+}
+
+.box:nth-child(2){
+ /* flex-shrink: 2; */
+ flex:2 4 100px;
+ order: 1;
+}

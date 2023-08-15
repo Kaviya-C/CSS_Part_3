@@ -1,0 +1,42 @@
+.box{
+  margin:auto;
+  border:2px solid red;
+  width:50%;
+  text-align:center;
+  padding:15px;
+  
+}
+
+img{
+  margin-left:auto;
+  margin-right:auto;
+  border:7px double green;
+  display:block;  
+}
+
+.right{
+position:absolute;
+right:0px;
+/*float:right;*/
+width:300px;
+border:4px groove blue ;
+padding:10px;
+}
+
+.clearfix{
+  border:6px solid red;
+  padding:6px;
+}
+
+.img1{
+  float:right;
+}
+
+.img2{
+float:right;
+}
+#fixed::after{
+  content:"";
+  clear:both;
+  display:table;
+}

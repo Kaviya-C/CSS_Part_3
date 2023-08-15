@@ -1,0 +1,36 @@
+body{
+ font-size: 1.5rem;
+}
+.column{
+ /* column-count: 4;
+ column-width: 200px; */
+ columns:4 250px;
+ column-rule: 3px groove red;
+ column-gap:4rem ;
+}
+
+ .column p{
+ margin-top: 0;
+ margin-bottom: 0;
+} 
+
+.column h2{
+ margin:0 ;
+ padding: 1rem;
+ background-color: bisque;
+ color: black;
+ break-inside: avoid; 
+}
+
+.column .quote{
+ margin-top:1.5rem;
+ margin-bottom: 1.5rem;
+ color: turquoise;
+ text-align: center;
+ font-size: 3.5rem;
+ column-span: all;
+}
+
+.nowrap{
+ white-space: nowrap;
+}

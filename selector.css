@@ -1,0 +1,45 @@
+/*
+descendant selector -- white space
+select all the elements of particular tag
+div contains article section also no worry
+it select all the container article and section tag
+element also bcoz that div tag is finished only last 
+of these above tags:
+
+child selector --- [ >  ]
+
+sibling selector --->  [ + ]  immediate specified tag
+
+general sibling selector --- [ ~ ] all the tags of outer which is next to them
+
+
+NOTE: COMMENT EACH  3 ARTICLE LEFT 1 ARTICLE 
+THEN EXECUTE 
+*/
+
+article p{
+  font-size:1.5rem;
+  color:#22577a;
+  Background-color:#ecf8f8;
+} 
+
+
+article > p{
+  font-size:1.5rem;
+  color:#9e2a2b;
+  background-color:#faf0ca;
+  
+}
+
+article + p{
+  font-size:1.5rem;
+  color:#9e2a2b;
+  background-color:#faf0ca;
+  
+}
+
+article ~ p{
+  font-size:1.5rem;
+  color:#9e2a2b;
+  background-color:#faf0ca;
+}

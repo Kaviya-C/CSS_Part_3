@@ -1,0 +1,65 @@
+html{
+ scroll-behavior: smooth;
+}
+
+section{
+ height:200vh;
+}
+
+body{
+ font-size:2.5rem;
+}
+
+.kaviya{
+ background-color: bisque;
+ font:inherit;
+ position: fixed;
+ top:50%;left:0;
+ z-index: 1;
+}
+
+.kavi{
+ background-color: bisque;
+ font:inherit;
+ position: fixed;
+ top:40%;left:0;
+ z-index: 1;
+}
+
+.blue{
+background-color: blue;
+}
+
+.green{
+background-color: green;
+
+}
+
+.red{
+background-color: red;
+}
+
+header,footer{
+ color:whitesmoke;
+
+ text-align: center;
+ height:90px;
+ padding:1rem;
+}
+
+header{
+ position:sticky;
+ top:0;
+ font-size:4rem;
+}
+
+footer{
+ position:sticky;
+ bottom:0;
+ font-size:3rem;
+ background-color: aquamarine;
+}
+
+a{
+ color: #0d0d0d;
+}

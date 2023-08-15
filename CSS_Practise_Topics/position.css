@@ -1,0 +1,61 @@
+*{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+ font-size: 2.9rem;
+ min-height: 200vh;
+}
+
+.outer-container{
+ border:3px dashed red;
+ width:75vw;
+ height: 675vh;
+ margin: 40px auto;
+  position: relative; 
+}
+
+.inner-container{
+ border: 3px solid blue;
+width: 40vw;
+height: 150vh;
+margin:200px auto; 
+/* position: relative;  */
+}
+
+.box{
+ padding: 1rem;
+ width:200px ;
+ height:200px;
+ color: white;
+}
+
+.absolute{
+ background-color: blue;
+ position:absolute;
+ top:0px;left:0px;
+ z-index: 8;
+}
+
+.relative
+{
+ background-color: red;
+ position: relative;
+ top: 100px; left: 100px;
+ /* left:-1000px; */
+}
+
+.fixed{
+ background-color: green;
+ position:fixed;
+ top: 100px;left:30px;
+}
+
+.sticky{
+ background-color: aqua;
+ position: sticky;
+ top:100px;
+
+}
